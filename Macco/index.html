@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don Maco - Restaurante Campestre</title>
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header Fijo -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="img/logo.jpg" alt="Logo Don Maco" class="logo-img">
+            <div class="logo-text">
+                <h1>Don Maco</h1>
+                <p>Restaurante Campestre</p>
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Hero con Overlay -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay">
+            <div class="hero-content" data-aos="fade-up">
+                <h2>Disfruta de la mejor comida campestre</h2>
+                <p>Abierto sábados, domingos y feriados de 10:00 AM a 5:30 PM</p>
+                <a href="#contacto" class="btn">Reserva Ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menú -->
+    <section id="menu" class="menu">
+        <h2 data-aos="fade-down">Nuestros Platos</h2>
+        <div class="menu-grid">
+            <div class="menu-item" data-aos="zoom-in">
+                <img src="img/parrilla.jpg" alt="Parrillada">
+                <div class="menu-item-content">
+                    <h3>Parrillada</h3>
+                    <p class="descripcion">Carne, chorizo y vegetales asados al carbón</p>
+                    <p class="precio">$25</p>
+                </div>
+            </div>
+
+            <div class="menu-item" data-aos="zoom-in">
+                <img src="img/lomito.jpg" alt="Lomito">
+                <div class="menu-item-content">
+                    <h3>Lomito Saltado</h3>
+                    <p class="descripcion">Carne, cebolla, tomate, ají amarillo, papas fritas y arroz salteados con salsa de soya</p>
+                    <p class="precio">$25</p>
+                </div>
+            </div>
+
+             <div class="menu-item" data-aos="zoom-in">
+                <img src="img/pato.jpg" alt="Pato">
+                <div class="menu-item-content">
+                    <h3> Pato Guisado</h3>
+                    <p class="descripcion">Pato cocido con ají panca, cebolla, ajo, chicha de jora y especias</p>
+                    <p class="precio">$25</p>
+                </div>
+            </div>
+            <!-- Repite para más platos -->
+        </div>
+    </section>
+
+    <!-- Galería -->
+<section id="galeria" class="galeria">
+    <h2 data-aos="fade-down">Nuestro Entorno</h2>
+    <div class="galeria-grid">
+        <div class="galeria-item" data-aos="zoom-in">
+            <img src="img/piscina.jpg" alt="Piscina">
+            <div class="galeria-overlay">
+                <p>Área de piscinas</p>
+            </div>
+        </div>
+        <div class="galeria-item" data-aos="zoom-in">
+            <img src="img/naturaleza.jpg" alt="Naturaleza">
+            <div class="galeria-overlay">
+                <p>Jardines naturales</p>
+            </div>
+        </div>
+        <div class="galeria-item" data-aos="zoom-in">
+            <img src="img/terraza.jpg" alt="Terraza">
+            <div class="galeria-overlay">
+                <p>Terraza campestre</p>
+            </div>
+        </div>
+        <div class="galeria-item" data-aos="zoom-in">
+            <img src="img/vista.jpg" alt="Vistas">
+            <div class="galeria-overlay">
+                <p>Vistas panorámicas</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contacto -->
+<section id="contacto" class="contacto">
+    <h2 data-aos="fade-down">Contacto</h2>
+    <div class="contacto-container">
+        <div class="contacto-info" data-aos="fade-right">
+            <h3><i class="fas fa-map-marker-alt"></i> Dirección</h3>
+            <p>Don Maco, Carretera Principal Km 5.5</p>
+            
+            <h3><i class="fas fa-phone"></i> Teléfono</h3>
+            <p>+51 951 410 669</p>
+            
+            <h3><i class="fas fa-clock"></i> Horario</h3>
+            <p>Sábados, Domingos y Feriados<br>9:00 AM - 5:30 PM</p>
+            
+            <div class="redes-contacto">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/1234567890"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        
+        <div class="mapa-container" data-aos="fade-left">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.0873457621565!2d-78.82162372594688!3d-7.989916379681515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad0d48fb3fc065%3A0x3874d5d947a51961!2sDon%20Maco!5e0!3m2!1ses!2spe!4v1752203898748!5m2!1ses!2spe" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Ubicación de Don Maco">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2023 Don Maco - Restaurante Campestre</p>
+    </footer>
+
+    <!-- Botón WhatsApp -->
+    <a href="https://wa.me/1234567890" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+
+        // Fijar el header al hacer scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
+
+    <!-- Botón de WhatsApp - Colócalo antes del cierre </body> -->
+<a href="https://wa.me/51951410669?text=¡Hola%20Don%20Maco!%20Vi%20su%20página%20web%20y%20quisiera%20saber%20sobre:%0A-%20Reservas%0A-%20Horarios%0A-%20Promociones" 
+   class="whatsapp-btn">
+   <i class="fab fa-whatsapp"></i>
+</a>
+</body>
+</html>
